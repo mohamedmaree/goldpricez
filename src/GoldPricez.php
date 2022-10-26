@@ -15,6 +15,9 @@ class GoldPricez {
             'X-API-KEY' => config('GoldPricez.API_KEY')
         ])->get($url);
         $responseResult = json_decode($response->getBody()->getContents(), true);
+        if(isset($responseResult['status'])){
+            return json_encode($responseResult);
+        }
         $responseResult = json_decode($responseResult, true);
         return json_encode($responseResult);
     }
