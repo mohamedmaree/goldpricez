@@ -14,7 +14,7 @@ class GoldPricezServiceProvider extends ServiceProvider
     {
         $this->publishes([
             __DIR__.'/config/GoldPricez.php' => config_path('GoldPricez.php'),
-        ],'oto');
+        ],'GoldPricez');
     }
 
     /**
