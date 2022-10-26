@@ -1,0 +1,26 @@
+{
+    "name": "maree/goldpricez",
+    "description": "package to get metal prices like gold and silver with different currencies and measures",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mohamed maree",
+            "email": "m7mdmaree26@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Maree\\GoldPricez\\" : "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Maree\\GoldPricez\\GoldPricezServiceProvider"
+            ]
+        }
+    }  
+}

@@ -15,6 +15,8 @@ then change your GoldPricez config from config/GoldPricez.php file
 ```php
     "API_KEY"  => "",
 ```
+- create 'API_KEY' from here http://goldpricez.com/key/registration
+
 ## Usage
 
 ## Get Prices
@@ -27,7 +29,7 @@ use Maree\GoldPricez\GoldPricez;
 
 ```
 ## notes
-- to get only gold prices remove 'meta' option from options array 
+- to get only gold prices remove 'metal' option from options array 
 
 ## documentaion
 - http://goldpricez.com/about/api
